@@ -30,7 +30,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Click here"/>
                                         <connections>
-                                            <action selector="didTapClichHereButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnm-nM-6lc"/>
+                                            <action selector="didTapClickHereButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dnm-nM-6lc"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -45,7 +45,7 @@
                     </view>
                     <connections>
                         <outlet property="clickHereButton" destination="65a-bZ-Pgt" id="rBj-5O-Rb5"/>
-                        <outlet property="testLabel" destination="qef-6C-TX2" id="8Uf-h0-dL3"/>
+                        <outlet property="titleLabel" destination="qef-6C-TX2" id="8Uf-h0-dL3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
